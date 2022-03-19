@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/tvIdEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etTipoEdit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Sensor"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        app:layout_constraintStart_toEndOf="@+id/tvIdEdit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etValorEdit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Valor"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/etTipoEdit"
+        app:layout_constraintStart_toEndOf="@+id/etTipoEdit" />
+
+    <ImageView
+        android:id="@+id/ivSaveEdit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/ic_baseline_save_24"
+        app:layout_constraintBottom_toBottomOf="@+id/etValorEdit"
+        app:layout_constraintStart_toEndOf="@+id/etValorEdit" />
+
+    <ImageView
+        android:id="@+id/ivCancelEdit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/ic_baseline_cancel_presentation_24"
+        app:layout_constraintBottom_toBottomOf="@+id/etValorEdit"
+        app:layout_constraintStart_toEndOf="@+id/ivSaveEdit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

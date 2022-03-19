@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/arman/AndroidStudioProjects/SmartHomeApp/app/src/main/res/drawable/button_shape.xml" value="0.2555" />
+        <entry key="..\:/Users/arman/AndroidStudioProjects/SmartHomeApp/app/src/main/res/drawable/ic__15_home_control.xml" value="0.2555" />
         <entry key="..\:/Users/arman/AndroidStudioProjects/SmartHomeApp/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1715" />
+        <entry key="..\:/Users/arman/AndroidStudioProjects/SmartHomeApp/app/src/main/res/drawable/ic_baseline_cancel_presentation_24.xml" value="0.11" />
         <entry key="..\:/Users/arman/AndroidStudioProjects/SmartHomeApp/app/src/main/res/drawable/item_lista_borde.xml" value="0.151" />
         <entry key="..\:/Users/arman/AndroidStudioProjects/SmartHomeApp/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/arman/AndroidStudioProjects/SmartHomeApp/app/src/main/res/layout/activity_main2.xml" value="0.4" />

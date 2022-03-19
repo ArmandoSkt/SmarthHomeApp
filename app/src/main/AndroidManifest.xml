@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.smarthomeapp">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartHomeApp"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
